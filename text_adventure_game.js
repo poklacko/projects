@@ -1,7 +1,7 @@
 // *** THE SECRET FOREST TEXT ADVENTURE GAME ***
 
 /*
- - the game starts with the playerInput() method, the required input is 'start'
+ - game starts with the playerInput() method, the required input is 'start'
  - this calls the start() and the progressSteps() methods
  - the progressSteps method maintaing the whole game flow depending on the player input using the playerInput() method
  - every step has a description property which is logged to the player with the choosable choices
