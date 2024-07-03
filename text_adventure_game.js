@@ -5,6 +5,7 @@
  - this calls the start() and the progressSteps() methods
  - the progressSteps method maintaing the whole game flow depending on the player input using the playerInput() method
  - every step has a description property which is logged to the player with the choosable choices
+ - the step's keywords substitutes the story chapters description 
  - to imitate throwing dice in specific steps progressSteps() method calls dice() method
  - in the last step the finish() method determine the end of the game depending on the player's remaining time and log it to the player
 */
