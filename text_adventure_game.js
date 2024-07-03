@@ -29,7 +29,7 @@ const game = {
 // choiceOne, choiceTwo properties are the choices which are required from the user and it controls the storyline branches
 // levelOfIncidents property can have 'high' or 'low' value depending on the level of the incident 
   stepsArray:[
-    {keyWord: 'Start', stepCode: 0, branch: 1, descripton: '<start">'},
+    {keyWord: 'Start', stepCode: 0, branch: 1, descripton: '<start>'},
     {keyWord: 'First choice', stepCode: 1, branch: 1, descripton: '<write "hill" or "river">', choiceOne: 'hill', choiceTwo: 'river'},
     {keyWord: 'Hill', stepCode: 2, branch: 1, descripton: '<write "tower" or "staying on the road">', choiceOne: 'tower', choiceTwo: 'staying on the road'},
     {keyWord: 'Valley', stepCode: 2, branch: 2, descripton: '<write "trail" or "boat">', choiceOne: 'trail', choiceTwo: 'boat'},
