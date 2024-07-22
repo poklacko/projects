@@ -14,7 +14,7 @@
 		|\// \\/|\
 
   - the createFirstRow and createTopRow functions generate the core of the pattern and the mirrorRow
-    function generates the second and the bottom row with mirroring  
+    function generates the second and the bottom row by mirroring them 
 */
 
 
