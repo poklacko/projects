@@ -39,7 +39,7 @@ function stringArt(input){
     for(let i = 0; i < numberedString.length; i++){
 
 // nested iteration to pair a 'drawing' character to every converted number on the numberedString list 
-//using a division of no remainder with the length of the character's list to make the pairing random
+// using a division of no remainder with the length of the character's list to make the pairing random
 // this generate the pattern of the half of the first row and push it 
       for(let j = 0; j < (numberedString[i] % characters.length)+1; j++){
         letter = characters[j];
