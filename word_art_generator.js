@@ -1,4 +1,4 @@
-// *** Word Art Generator ***
+// *** WORD ART GENERATOR ***
 
 /*
   - the program takes a word as input and generates "word art" using ASCII characters 
